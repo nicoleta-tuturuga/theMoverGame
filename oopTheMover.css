@@ -1,0 +1,36 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+h3{
+    margin: 0 5rem;
+}
+
+.container{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(247, 156, 71);
+    position: relative;
+}
+
+.player{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+}
+
+
+
+.container{
+    position: relative;
+}
+
+.obstacle {
+    width: 25px;
+    background-color: rgb(65, 158, 235);
+    position: absolute;
+}
